@@ -1,0 +1,244 @@
+@media (min-width: 1920px) {
+
+    .redes-sociais-lateral { 
+        top: 37%;
+    }
+    .container-formulario {
+        margin: 190px auto;
+    }
+
+    #user-icone {
+        top: 395px;
+        left: 780px;
+    }
+    #lock-icone {
+        top: 470px;
+        left: 780px;
+    }
+    #user-icone-cadastro {
+        top: 359px;
+        left: 780px;
+    }
+    #email-icone-cadastro {
+        top: 432px;
+        left: 780px;
+    }
+    #lock-icone-cadastro {
+        top: 508px;
+        left: 780px;
+    }
+
+}
+@media (max-width: 1360px) {
+
+
+    .container-formulario {
+        margin: 47px auto;
+    }
+    #user-icone {
+        position: absolute;
+        top: 258px;
+        left: 500px;
+        user-select: none;
+    }
+    #lock-icone {
+        position: absolute;
+        top: 332px;
+        left: 500px;
+        user-select: none;
+    }
+    #user-icone-cadastro {
+        position: absolute;
+        top: 220px;
+        left: 500px;
+        user-select: none;
+    }
+    #email-icone-cadastro {
+        position: absolute;
+        top: 294px;
+        left: 500px;
+        user-select: none;
+    }
+    #lock-icone-cadastro {
+        position: absolute;
+        top: 370px;
+        left: 500px;
+        user-select: none;
+    }
+}
+@media (max-width: 1024px) {
+
+    .redes-sociais-lateral{
+        display: none;
+    }
+    .site {
+        width: 100%;
+    }
+    .cont-header{
+        display: flex;
+        flex-direction: column;
+    
+}
+    .cont-header nav ul{
+        margin-bottom: 20px;
+   
+ }
+ .container-formulario {
+    margin: 93px auto;
+}
+ #user-icone {
+    position: absolute;
+    top: 258px;
+    left: 332px;
+    user-select: none;
+}
+#lock-icone {
+    position: absolute;
+    top: 332px;
+    left: 332px;
+    user-select: none;
+}
+#user-icone-cadastro {
+    position: absolute;
+    top: 220px;
+    left: 332px;
+    user-select: none;
+}
+#email-icone-cadastro {
+    position: absolute;
+    top: 296px;
+    left: 332px;
+    user-select: none;
+}
+#lock-icone-cadastro {
+    position: absolute;
+    top: 370px;
+    left: 332px;
+    user-select: none;
+}
+}
+@media (max-width: 800px) {
+
+    .container-formulario {
+        margin: 35px auto;
+    }
+
+    .conjunto-main {
+        display: flex;
+        flex-direction: column;
+    }
+    #user-icone {
+        position: absolute;
+        top: 258px;
+        left: 220px;
+        user-select: none;
+    }
+    #lock-icone {
+        position: absolute;
+        top: 332px;
+        left: 223px;
+        user-select: none;
+    }
+    #user-icone-cadastro {
+        position: absolute;
+        top: 220px;
+        left: 220px;
+        user-select: none;
+    }
+    #email-icone-cadastro {
+        position: absolute;
+        top: 296px;
+        left: 220px;
+        user-select: none;
+    }
+    #lock-icone-cadastro {
+        position: absolute;
+        top: 370px;
+        left: 223px;           
+        user-select: none;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-logo img{ 
+    display: none;
+    }
+    .cv-footer {
+        display: none;
+    }
+    .align-j p{
+        text-align: center;  
+    }
+    .noticias-v-t{
+        display: flex;
+        flex-direction: column;
+    }
+    .video-n{
+        width: 80%;
+        height: auto;
+    }
+    .text-n{
+        width: 80%;
+        height: auto;
+    }
+    
+}
+@media (max-width: 650px) {
+
+    .container-formulario{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0;
+        margin: auto;
+    }
+    .video1 {
+        height: auto;
+    }
+    #user-icone {
+        position: absolute;
+        top: 258px;
+        left: 145px;
+        user-select: none;
+    }
+    #lock-icone {
+        position: absolute;
+        top: 332px;
+        left: 147px;
+        user-select: none;
+    }
+    #user-icone-cadastro {
+        position: absolute;
+        top: 220px;
+        left: 145px;
+        user-select: none;
+    }
+    #email-icone-cadastro {
+        position: absolute;
+        top: 296px;
+        left: 145px;
+        user-select: none;
+    }
+    #lock-icone-cadastro {
+        position: absolute;
+        top: 370px;
+        left: 147px;           
+        user-select: none;
+    }
+    .cont-header{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .cont-header nav ul{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        width: 350px;
+    }
+    .cont-header nav ul li {
+        padding: 10px;
+    }
+}

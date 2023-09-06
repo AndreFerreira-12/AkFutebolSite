@@ -1,0 +1,66 @@
+.container-consulta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 97.57%;
+    height: 100vh;
+    margin: 15px auto;
+    background-color: rgb(216, 216, 216);
+    border: 1px solid white;
+    border-radius: 3px;
+    gap: 3px;
+    padding-bottom: 3px;
+}
+.c-adm-h1 {
+    user-select: none;
+    text-align: center;
+    font-size: 25px;
+    background-color: #013a6b;
+    padding: 5px 0;
+    border-radius: 3px 3px 0 0;
+    border-bottom: 1px solid white;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+}
+.container-tabela-consulta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgb(197, 197, 197);
+    width: 99%;
+}
+.tabela-cons {
+    margin: 2px;
+    width: 100%;
+    text-align: center;
+}
+.sup-table {
+    background-color: rgb(82, 82, 82);
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.inf-table {
+    background-color: rgb(243, 243, 243);
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.table-c {
+    color: black;
+    font-size: 16px;
+
+    text-transform: uppercase;
+    padding: 0 15px;
+}
+.text-cons{
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+}
+

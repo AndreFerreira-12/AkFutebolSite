@@ -1,0 +1,38 @@
+.faixa-branca{
+    background-color: white;
+    text-align: center;
+    border-left: 30px solid #013a6b;
+    /* text */
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    user-select: none;
+    text-transform: uppercase; 
+}
+/* START FAIXA BORDAO */
+.faixa {
+    background-color: black;
+    margin: 0 auto;
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    align-items: center;
+    user-select: none;
+  }
+  .faixa span{
+    display: block;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 8px;
+  }
+  .faixa span {
+    animation: fadeInFadeOut 0.1s linear infinite;
+  }
+  /* @keyframes fadeInFadeOut {
+    0% {opacity:1;}
+    50%{opacity: 0;}
+    100% {opacity:1;}
+  } */
+  /* END FAIXA BORDAO */

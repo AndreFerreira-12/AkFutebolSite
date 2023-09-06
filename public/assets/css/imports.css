@@ -1,0 +1,18 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
+
+/* IMPORTS */
+@import "./style.css";
+@import "./header.css";
+@import "./buttons.css";
+@import "./footer.css";
+@import "./grid.css";
+@import "./banner.css";
+@import "./main-noticias.css";
+@import "./login.css";
+@import "./faixas.css";
+@import "./responsive.css";
+@import "./page-adm.css";
+@import "./consulta-adm.css";

@@ -1,0 +1,132 @@
+
+/* START RODAPE */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #013a6b;
+    color: #FFF;
+    width: 100%;
+    min-height: 250px;  
+    margin: 0 auto;
+    font-weight: 200;
+    border-top: 1px solid white;
+}
+
+.boxs {
+     text-align: center;
+     width: 250px;
+     min-height: 100px;
+     padding: 20px;
+     margin: auto;
+    
+}
+
+.align-j p{
+    text-align: justify;
+   
+}
+.boxs h1 {
+   font-weight: 300;
+   color: rgb(153, 153, 153);
+   text-transform: uppercase;
+}
+.boxs ul{
+    list-style: none;
+    margin-top: 5px ;
+}
+
+.boxs li{
+    list-style: none;
+    margin-top: 5px;
+}
+
+
+.boxs ul li a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+}
+.boxs ul li a:hover{
+    color: rgb(0, 88, 219);
+    text-decoration: underline;
+
+}
+
+
+.footer-logo img{
+    display: block;
+    margin-left: 15px;
+    width: 150px;
+    height: auto;
+    margin-bottom: 185px; 
+}
+
+
+
+.redes-sociais-footer ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+
+}
+.redes-sociais-footer img {
+    transition: all 0.6s;
+}
+.redes-sociais-footer img:hover{
+    transform: scale(1.1);
+}
+
+/* END RODAPE */
+
+/* START SUBRODAPE */
+
+.p-footer {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: #013a6b;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    font-weight: 100;
+    font-size: 14px;
+  
+}
+.cv-footer {
+    border-top: 1px solid white;
+    width: 97%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    color: rgb(153, 153, 153);
+    padding: 10px 0;
+    
+}
+.cv-footer ul{
+    display: flex;
+}
+.cv-footer ul li {
+    list-style: none;
+    margin: 0 15px;
+
+}
+.cv-footer ul a{
+text-decoration: none;
+color: rgb(153, 153, 153);
+}
+.cv-footer ul a:hover{
+ text-decoration: underline;
+ }
+
+ .footer-pagina-adm{
+    width: 100%;
+    border-top: none;
+ }
+.cv-footer-pagina-adm {
+    width: 98%;
+    border-top: 1px solid white;
+}
+
+/* ENDs SUBRODAPE */

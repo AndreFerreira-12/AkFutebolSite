@@ -1,0 +1,103 @@
+/* START BUTTONS PADRÃO */
+
+.btn{
+    padding: 1px 30px;
+    border-radius: 15px;
+}
+.btn-adm.btn-branco{
+    padding: 0px 30px;
+    border-radius: 30px;
+    background-color: white;
+}
+.btn.btn-branco{
+    background-color: white;
+}
+.btn.btn-azul{
+    color: white;
+    background-color: rgb(40, 0, 116);
+}
+/* END BUTTONS PADRÃO */
+
+/* START BUTTONS DE PERSONALIZAÇÃO PRÓPRIA */
+
+/* START ADM*/
+.button-adm-page {
+    border-radius: 25px;
+    color: white;
+    background-color: #012749;
+    border: 1px solid white;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.7s;
+    width: 600px;
+    margin: 10px 0 10px 0;
+}
+.button-adm-page:hover {
+    transform: scale(1.02);
+    background-color: #014988;
+}
+/* END ADM*/
+
+/* CONSULTA NOTICIAS*/
+.btn-table-delete{
+    background-color:rgb(172, 0, 0);
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: all 0.7s;
+
+}
+.btn-table-delete:hover{
+    background-color:rgb(255, 255, 255);
+}
+.btn-table-delete a {
+    display: block;
+    transition: all 0.7s;
+}
+.btn-table-delete a:hover{
+    color: rgb(170, 0, 0);
+}
+
+.btn-table-edit{
+    background-color:rgb(0, 160, 61);
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: all 0.7s;
+
+}
+.btn-table-edit:hover{
+    background-color:rgb(255, 255, 255);
+}
+.btn-table-edit a {
+    display: block;
+    transition: all 0.7s;
+}
+.btn-table-edit a:hover{
+    color: green;
+}
+/* END CONSULTA NOTICIAS*/
+
+/* START LOGIN-CADASTRO */
+.btn-lc{
+    font-size: 25px;
+    background-color: #026cc9;
+    padding: 5px 50px;
+    margin-top: 10px;
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 1s;
+
+}
+.btn-lc:hover{
+    background-color: #014988;
+}
+/* END LOGIN-CADASTRO */
+
+/* END BUTTONS DE PERSONALIZAÇÃO PRÓPRIA */
+
+

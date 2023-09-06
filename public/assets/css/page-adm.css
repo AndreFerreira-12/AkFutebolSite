@@ -1,0 +1,163 @@
+/* START ADM PAGE */
+.adm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.container-adm {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 500px;
+    background-color: #013a6b;
+    border-radius: 40px;
+    gap: 40px;
+}
+/* START CLASSES DE FORMATAÇÃO DE TEXTO */
+.adm-text{
+    transition: all 0.5s;
+    color: #014988;
+}
+.adm-text:hover {
+    transform: scale(1.02);
+    color: #025196;
+    text-decoration: underline;
+}
+.h1-adm {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    user-select: none;
+    color: white;
+
+}
+.a-adm {
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #002b50; 
+
+}
+/* END CLASSES DE FORMATAÇÃO DE TEXTO */
+/* END ADM PAGE */
+
+
+
+
+/* START CONTAINER MAIOR */
+.container-formulario-cadastro-noticias {
+    display: flex;
+    align-items: center;
+    background-color: #013a6b;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 15px;
+    width: 830px;
+    height: auto;
+    margin: 40px auto;
+
+}
+/* END CONTAINER MAIOR */
+
+/* START CONTAINER MENOR */
+.formulario-cadastro-noticias {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: auto;
+    margin: 13px auto;
+    background-color: #013a6b;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 15px;
+}
+/* END CONTAINER MENOR */
+
+/* START CLASSES DE FORMATAÇÃO DE TEXTOS, INPUT, TEXT-AREA E BUTTON */
+.form-cadastro {
+    font-size: 25px;
+    font-weight: 500;
+}
+.text-inp {
+       outline: 1px solid rgb(139, 139, 139) ;
+       text-align: center;
+       border-radius: 30px;
+       font-size: 18px;
+       background-color: rgba(0, 0, 0, 0.6);
+       color: white;
+       margin: 5px 0 5px 0;
+       width: 600px;
+}
+.text-inp:focus {
+    outline: 1px solid white ;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.39);
+
+}
+.text-inp::placeholder {
+    color: rgb(190, 190, 190);
+}
+.formulario-text-area {
+    width: 600px;
+    height: 150px;
+    border-radius: 10px;
+    outline: 1px solid rgb(139, 139, 139) ;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    transition: all 0.5s;
+}
+.formulario-text-area::placeholder {
+    color: rgb(190, 190, 190);
+    font-size: 18px;
+}
+.formulario-text-area {
+    color: rgb(255, 254, 254);
+    font-size: 19px;
+}
+.formulario-text-area:focus {
+    outline: 1px solid white ;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.39);
+}
+.inp-video-card {
+    width: 150px;
+    outline: 1px solid rgb(139, 139, 139) ;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    border: 0;
+
+}
+#option-video {
+    background-color: #011e38;
+}
+#option-card{
+    background-color: #011e38;
+}
+#option-album{
+    background-color: #011e38;
+}
+#option-bloco{
+    background-color: #011e38;
+}
+.msg-not {
+    color: rgb(0, 255, 21);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    padding: 5px;
+    transition: 1s;
+}
+
+/* END CLASSES DE FORMATAÇÃO DE TEXTOS, INPUT, TEXT-AREA E BUTTON */
+
+/*END CADASTRO DE NOTICIAS-ADM */
